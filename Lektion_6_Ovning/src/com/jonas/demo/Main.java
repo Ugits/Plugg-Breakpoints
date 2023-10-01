@@ -7,16 +7,17 @@ public class Main {
 
 
         try {
-            for (int i = 0; i < 0; i++) {
 
+            for (int i = 0; i < 0; i++) {
+                System.out.println("inom Foor loop");
             }
 
             int i = 0;
             if (i < 5) {
+
                 i++;
                 System.out.println("inom If-sats");
-                (());
-                                        
+
             }
         } catch (Exception error) {
             error.printStackTrace();
